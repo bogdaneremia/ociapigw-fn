@@ -1,0 +1,8 @@
+schema_version: 20180708
+name: basic-auth
+version: 0.0.22
+runtime: node
+entrypoint: node func.js
+config:
+  usernameSecretId: ocid1.vaultsecret.oc1.eu-frankfurt-1.amaaaaaaqrgb7baatxylwsred3snixcyhl2s5qwiat5jls6lceyevwzaaaaa
+  passwordSecretId: ocid1.vaultsecret.oc1.eu-frankfurt-1.amaaaaaaqrgb7baaetambaauytmfo3cuffflfquwfgue6ahtp6oejo2aaaaa

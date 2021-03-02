@@ -1,0 +1,12 @@
+{
+        "name": "basic-auth",
+        "version": "1.0.0",
+        "description": "example api gw authorizer basic-auth function",
+        "main": "func.js",
+        "author": "bogdan.eremia@oracle.com",
+        "license": "Apache-2.0",
+        "dependencies": {
+                "@fnproject/fdk": ">=0.0.19",
+                "oci-sdk": "^1.15.2"
+        }
+}
